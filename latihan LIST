@@ -1,0 +1,10 @@
+#   program list pemesanan makanan
+
+print("masukan nama makanan")
+pesanan = input("nama makanan\t: ")
+pembeli = input("nama pemesan\t: ")
+nomermeja = input("nomormeja kosong\t: ")
+
+pesanan_baru = [pesanan,pembeli,nomermeja]
+
+print(pesanan_baru)
